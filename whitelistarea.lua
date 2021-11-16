@@ -21,7 +21,7 @@ local function main()
         if table.find(joe,v.UserId) then
             if v.Character then
                 v.Character:FindFirstChild("Humanoid").DisplayName = '[⭐]'..v.DisplayName
-            end
+                end
         elseif table.find(realtacoppl,v.UserId) then
             if v.Character then
                 v.Character:FindFirstChild("Humanoid").DisplayName = '[💎]'..v.DisplayName
